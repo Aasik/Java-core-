@@ -1,0 +1,31 @@
+Java is a computer programming language, that is concurrent, class based, object oriented. 
+It is indented to let programmers Write once, run everywhere, that compiledd Java code can run on multiple platforms.
+
+Oracle implementation is packaged into two differnt distributions.
+  Java Runtime Enviornment 
+  Java Development Kit
+  
+ Garabage Collection
+ Java uses an automatic garbage collector to manage memory in the object lifecycle.
+ The programmers determine when objects are created, and the java runtime is responsible for recovering the memory
+ once objects are no longer in use.  once no references to an object remain, the unreachable memory becomes eligible to be freed 
+ automatically by the garbage collector.
+ 
+ The traditional Hello world program in Java
+ 
+ public class HelloWorld{
+    public static void main(String[] args){
+      System.out.println("Hello World");
+    }
+ }
+ 
+ 
+ Java Class file 
+ 01. Java source files must be named after the public class they contain, appending the suffix .java.(HelloWorld.Java)
+ 02. It must be first compiled into bytecode using a Java compiler,producing a file named HelloWorld.class only then it can be executed or launched.
+ 03. The Java source file contains only one public class but it can conatin multiple classes with other than the public access and any number of 
+      public inner class.
+ 04. when the source file contains multiple classes, make one class public and name the source file with that public class name.
+ 
+ 
+ 
